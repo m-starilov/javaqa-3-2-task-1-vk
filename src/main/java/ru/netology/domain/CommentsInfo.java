@@ -1,13 +1,31 @@
 package ru.netology.domain;
 
-import java.util.Date;
-
 public class CommentsInfo {
-    private String id;
-    private String parentId;
-    private String ownerId;
-    private Date commentDate;
-    private Author author;
-    private String commentText;
-    private LikesInfo likesInfo;
+    private int count;
+    private int canPost;
+    private int groupsCanPost;
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getCanPost() {
+        return canPost;
+    }
+
+    public void setCanPost(int canPost) {
+        this.canPost = canPost;
+    }
+
+    public int getGroupsCanPost() {
+        return groupsCanPost;
+    }
+
+    public void setGroupsCanPost(int groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
+    }
 }
