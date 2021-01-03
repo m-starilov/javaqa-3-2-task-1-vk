@@ -8,6 +8,6 @@ public class CommentsInfo {
     private String ownerId;
     private Date commentDate;
     private Author author;
-    private String text;
+    private String commentText;
     private LikesInfo likesInfo;
 }
